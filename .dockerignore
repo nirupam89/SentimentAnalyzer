@@ -1,0 +1,41 @@
+# Maven build output
+target/
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+HELP.md
+REPOSITORY_REVIEW.md
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test files
+src/test/
+
+# Maven wrapper (we copy it explicitly in Dockerfile)
+# .mvn/
+

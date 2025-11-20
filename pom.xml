@@ -11,7 +11,7 @@
 	<groupId>io.github.nirupam</groupId>
 	<artifactId>sentiment-analysis-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Sentiment Analysis Service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -72,11 +72,8 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>
+		<!-- spring-boot-starter-tomcat is included by default in spring-boot-starter-web -->
+		<!-- No need to explicitly declare it unless you want to customize the version -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
