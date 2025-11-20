@@ -3,6 +3,7 @@
 # This script builds the Spring Boot application into an executable JAR/WAR file
 
 set -o errexit  # Exit on error
+
 set -o pipefail # Exit on pipe failure
 
 echo "Building Spring Boot application..."
